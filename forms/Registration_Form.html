@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration_Form</title>
+	<link rel="stylesheet" type="text/css" href="../css/style1.css">
+	<!-- <link rel="stylesheet" type="text/css" href="../public/css/style.css"> -->
+</head>
+<body>
+	<div class="bar">
+	<div class="ll">
+	<label id="lid1"><a href="/"> Home</a></label>
+	<label id="lid"><a href = "/Registration"  class="regs"><span title="for authorized person only">Case Regisration</span></a></label>
+	<label id="lid"><a href="/login">Login</a></label>
+	<label id="lid"><a href="./routehandeler/route.js">Notification</a></label>
+</div>
+</div>
+<div class="container">
+	<div class="title" >Case Registration Form</div>
+    
+	<form action="/create" method="POST" >
+		<div class="case-detail">
+	<div class="input-box">
+	<span class="details">Case-No</span>
+	<input type="text" placeholder="Enter the case id" name="CId" required>
+</div>
+<div class="input-box">
+	<span class="details">Section-Involved</span>
+	<input type="text" placeholder="Enter The sections involved" name="SI" required>
+</div>
+<div class="input-box">
+	<span class="details">Case-File-Date</span>
+	<input type="Date" placeholder="Enter the date on which case is filled" name="cfd" required>
+</div>
+<div class="input-box">
+	<span class="details">Last-Hearing-Date</span>
+	<input type="Date" placeholder="Last Hearing Date if Availiable" name="lhd">
+</div>
+<div class="input-box">
+	<span class="details">Trial-Number</span>
+	<input type="text" placeholder="Trial Number if Availiable " name="trin">
+</div>
+<!-- <div class="button">
+	<br>
+	<br>
+	<input type="submit" value="Submit" >
+</div> -->
+<button type ="submit" onclick="myfunction()">Submit</button>
+</div>
+
+	</form>
+</div> 
+
+</body>
+</html>
