@@ -10,7 +10,7 @@
     "node",
     "express"
   ],
-  "author": ["Ashutosh Mani Tripathi","Rishabh Srivastav","Shivam Verma","Mahima Tyagi","Isha Chaudhary","Palak Gupta"],
+  "author": ["Ashutosh Mani Tripathi"],
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.0",
